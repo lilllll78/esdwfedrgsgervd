@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "freehost",
+  "version": "${version}",
+  "name": "FreeHost - World Hosting",
+  "description": "Héberge ton monde solo depuis ton PC et invite tes amis avec un code. Sans serveur, sans relais.",
+  "authors": ["FreeHost"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.freehost.client.FreeHostClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
